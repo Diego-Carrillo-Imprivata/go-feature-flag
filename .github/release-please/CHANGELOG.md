@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.57.1](https://github.com/thomaspoignant/go-feature-flag/compare/v1.57.0...v1.57.1) (2026-10-20)
+
+
+### 🐛 Bug Fixes
+
+* **webhook:** isolate headers for concurrent notifications ([#6293](https://github.com/thomaspoignant/go-feature-flag/issues/6293)) ([0f49cff](https://github.com/thomaspoignant/go-feature-flag/commit/0f49cff15c3cbed17309ae90fd86f0c8862ebc55))
+
+
+### 🔧 Chores
+
+* Bump github.com/aws/aws-sdk-go-v2 from 1.47.2 to 1.47.3 ([#6270](https://github.com/thomaspoignant/go-feature-flag/issues/6270)) ([94e150c](https://github.com/thomaspoignant/go-feature-flag/commit/94e150caca5713149f9bb3a44da1ca9834ee267f))
+* Bump github.com/aws/aws-sdk-go-v2/config from 1.33.8 to 1.33.9 ([#6278](https://github.com/thomaspoignant/go-feature-flag/issues/6278)) ([1d6f49c](https://github.com/thomaspoignant/go-feature-flag/commit/1d6f49cf8af58a316efde9385e97510e15bca251))
+* Bump github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager ([#6277](https://github.com/thomaspoignant/go-feature-flag/issues/6277)) ([a17da7f](https://github.com/thomaspoignant/go-feature-flag/commit/a17da7fa2207d1ed26f2e7e5167c9b92fd72fcd1))
+* Bump github.com/aws/aws-sdk-go-v2/service/kinesis ([#6272](https://github.com/thomaspoignant/go-feature-flag/issues/6272)) ([6767e3c](https://github.com/thomaspoignant/go-feature-flag/commit/6767e3cb7ed75d0d3846b5f2b86bd8f5b2e55022))
+* Bump github.com/aws/aws-sdk-go-v2/service/s3 ([#6273](https://github.com/thomaspoignant/go-feature-flag/issues/6273)) ([5782721](https://github.com/thomaspoignant/go-feature-flag/commit/5782721bd2a575ffdeef2ffb768f4553818121dc))
+* Bump github.com/aws/aws-sdk-go-v2/service/sqs ([#6276](https://github.com/thomaspoignant/go-feature-flag/issues/6276)) ([0e8befb](https://github.com/thomaspoignant/go-feature-flag/commit/0e8befbe8563f8545ba74b224653765f6929cebc))
+* Bump github.com/prometheus/common from 0.72.0 to 0.72.1 ([#6280](https://github.com/thomaspoignant/go-feature-flag/issues/6280)) ([19eb84e](https://github.com/thomaspoignant/go-feature-flag/commit/19eb84e3b9904c3602e5e5d11a1419b847794ab2))
+* Bump golang.org/x/net from 0.60.0 to 0.61.0 ([#6274](https://github.com/thomaspoignant/go-feature-flag/issues/6274)) ([953fcc9](https://github.com/thomaspoignant/go-feature-flag/commit/953fcc95dcb8bafa18f9982473a9c9016e049b0c))
+* Bump google.golang.org/api from 0.301.0 to 0.302.0 ([#6296](https://github.com/thomaspoignant/go-feature-flag/issues/6296)) ([20509d0](https://github.com/thomaspoignant/go-feature-flag/commit/20509d0647aae0126648a2aa7ce4f72be19647bd))
+* Bump goreleaser/goreleaser-action from 7.2.3 to 7.3.0 ([#6288](https://github.com/thomaspoignant/go-feature-flag/issues/6288)) ([7ba2bda](https://github.com/thomaspoignant/go-feature-flag/commit/7ba2bdaf4f9c43bc6eb333ff5cb6820131a127d9))
+* Bump htmlnano in /examples/openfeature_web/webapp ([#6287](https://github.com/thomaspoignant/go-feature-flag/issues/6287)) ([9efcc42](https://github.com/thomaspoignant/go-feature-flag/commit/9efcc42524c0a0e48769cb93308286328313ead5))
+* Bump NUnit3TestAdapter from 6.3.0 to 6.3.1 ([#6282](https://github.com/thomaspoignant/go-feature-flag/issues/6282)) ([9528f1b](https://github.com/thomaspoignant/go-feature-flag/commit/9528f1bc7ba148334c29c697876dc91147ccf1a8))
+* Bump ossf/scorecard-action from 2.4.4 to 2.5.0 ([#6289](https://github.com/thomaspoignant/go-feature-flag/issues/6289)) ([eed4b5a](https://github.com/thomaspoignant/go-feature-flag/commit/eed4b5a89dc55358486c804247ce50f4561b7d11))
+* Bump uuid in /examples/openfeature_web/webapp ([#6286](https://github.com/thomaspoignant/go-feature-flag/issues/6286)) ([59c079a](https://github.com/thomaspoignant/go-feature-flag/commit/59c079a56975ca000fde51db1dcca80b8ee50034))
+* **dependabot:** group AWS SDK and OpenTelemetry bumps ([#6285](https://github.com/thomaspoignant/go-feature-flag/issues/6285)) ([ae61363](https://github.com/thomaspoignant/go-feature-flag/commit/ae61363cd8eadc82b4fa26f4923f1e8cce3ca351))
+
+
+### 📚 Documentation
+
+* add Planton to ADOPTERS.md ([#6295](https://github.com/thomaspoignant/go-feature-flag/issues/6295)) ([d4fe7be](https://github.com/thomaspoignant/go-feature-flag/commit/d4fe7be1e34c413a170247898e473bfb841cab5e))
+* fix link for feature request issue creation ([#6283](https://github.com/thomaspoignant/go-feature-flag/issues/6283)) ([88c6451](https://github.com/thomaspoignant/go-feature-flag/commit/88c6451fc4d90e3bc3c4f46dd07f3a45b6ab22de))
+
 ## [1.57.0](https://github.com/thomaspoignant/go-feature-flag/compare/v1.56.1...v1.57.0) (2026-10-16)
 
 
